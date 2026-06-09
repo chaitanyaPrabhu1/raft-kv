@@ -1,0 +1,12 @@
+# build artifacts
+raft-kv
+raft-client
+raft-kv-tsan
+raft-kv-asan
+*.o
+
+# runtime state
+testdata/
+log_*.bin
+meta_*.bin
+*.log
